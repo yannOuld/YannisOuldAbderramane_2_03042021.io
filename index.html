@@ -15,8 +15,8 @@
         <header>
 
             <nav class="banniere1">
-
-                    <p><img src="images/logo/Reservia.png" alt="logo" class="logo" /></p>
+                    <span> <p><img src="images/logo/Reservia.png" alt="logo" class="logo" /></p></span>
+                    
 
                     <span class="menu">
                         <a href="#hebergements" class ="A-page" >Hébergements</a>
@@ -27,13 +27,13 @@
             </nav>
 
             <nav class="banniere2">
-                <div>
+                <div class="sign">
                     <p><img src="images/logo/Reservia.png" alt="logo" class="logo" /></p>
                     <a href="_blank" class="A-inscription">S'inscrire</a>
                 </div>
-                <div>
+                <div class="menu2">
+                    <a href="#hebergements" class ="A-page" >Hébergements</a>
                     <a href="#activites" class="A-page" >Activités</a>
-                    <a href="_blank" class="A-inscription">S'inscrire</a>
                 </div>
             </nav>
     
@@ -52,15 +52,17 @@
                     
                 <div class="filtres">
                     <span><label for="btn">Filtres</label></span>
-                    <span><i class="fas fa-money-bill-wave"></i><button class="btn">Économique</button></span>
-                    <span><i class="fas fa-child"></i><button class="btn">Familial</button></span>
-                    <span><i class="fas fa-heart"></i><button class="btn3">Romantique</button></span>
-                    <span><i class="fas fa-dog"></i><button class="btn4">Animaux autorisés</button></span>
+                    <div class="btn-box">
+                        <span><i class="fas fa-money-bill-wave"></i><button class="btn">Économique</button></span>
+                        <span><i class="fas fa-child"></i><button class="btn">Familial</button></span>
+                        <span><i class="fas fa-heart"></i><button class="btn">Romantique</button></span>
+                        <span><i class="fas fa-dog"></i><button class="btn">Animaux autorisés</button></span>
+                    </div>
+                   
                 </div>
                 
                 <div class="information">
-                    <span><i class="fas fa-info"></i></span>
-                    <span> Plus de 500 logements sont disponibles dans cette ville </span>
+                    <span><i class="fas fa-info"></i></span> <p> Plus de 500 logements sont disponibles dans cette ville </p>
                 </div>
             </nav>
         </header>
@@ -73,45 +75,57 @@
 
                 <div class="container1">
                     <figure class= card1>
-                        <img src="images/hebergements/4_small/AubergelaCannebiere.jpg" alt="photo de l'auberge de la cannebière">
-                        <figcaption class="title">Auberge de la Cannebière</figcaption>
-                        <figcaption class="price">Nuit à partir de 25€</figcaption>
-                        <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        <a href=""><img src="images/hebergements/4_small/AubergelaCannebiere.jpg" alt="photo de l'auberge de la cannebière"></a>
+                        <a href="">
+                            <figcaption class="title">Auberge de la Cannebière</figcaption>
+                            <figcaption class="price">Nuit à partir de <strong>25€</strong></figcaption>
+                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        </a>
                     </figure>
 
                     <figure class="card1">
-                        <img src="images/hebergements/4_small/Hotelduport.jpg" alt="photo de l'hôtel du port">
-                        <figcaption class="title">Hôtel du port</figcaption>
-                        <figcaption class="price">Nuit à partir de 52€</figcaption>
-                        <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></figcaption>
+                        <a href=""> <img src="images/hebergements/4_small/Hotelduport.jpg" alt="photo de l'hôtel du port"></a>
+                        <a href="">
+                            <figcaption class="title">Hôtel du port</figcaption>
+                            <figcaption class="price">Nuit à partir de 52<strong>€</strong></figcaption>
+                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></figcaption>
+                        </a>
                     </figure>
                     
                     <figure class="card1">
-                        <img src="images/hebergements/4_small/Hotellesmouettes.jpg" alt="photo de l'hôtel les mouettes">
-                        <figcaption class="title">Hôtel Les mouettes</figcaption>
-                        <figcaption class="price">Nuit à partir de 76€</figcaption>
-                        <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        <a href=""><img src="images/hebergements/4_small/Hotellesmouettes.jpg" alt="photo de l'hôtel les mouettes"></a>
+                        <a href="">
+                            <figcaption class="title">Hôtel Les mouettes</figcaption>
+                            <figcaption class="price">Nuit à partir de 76<strong>€</strong></figcaption>
+                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        </a>
                     </figure>
 
                     <figure class="card1">
-                        <img src="images/hebergements/4_small/Hoteldelamer.jpg" alt="photo de l'hôtel de la mer">
-                        <figcaption class="title">Hôtel de la mer</figcaption>
-                        <figcaption class="price">Nuit à partir de 46€</figcaption>
-                        <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        <a href=""><img src="images/hebergements/4_small/Hoteldelamer.jpg" alt="photo de l'hôtel de la mer"></a>
+                        <a href="">
+                            <figcaption class="title">Hôtel de la mer</figcaption>
+                            <figcaption class="price">Nuit à partir de 46<strong>€</strong></figcaption>
+                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        </a>
                     </figure>
 
                     <figure class="card1">
-                        <img src="images/hebergements/4_small/AubergeLePanier.jpg" alt="photo de l'auberge le panier">
-                        <figcaption class="title">Auberge Le Panier</figcaption>
-                        <figcaption class="price">Nuit à partir de 23€</figcaption>
-                        <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        <a href=""><img src="images/hebergements/4_small/AubergeLePanier.jpg" alt="photo de l'auberge le panier"></a>
+                        <a href="">
+                            <figcaption class="title">Auberge Le Panier</figcaption>
+                            <figcaption class="price">Nuit à partir de <strong>23€</strong></figcaption>
+                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                        </a>
                     </figure>
 
                     <figure class="card1">
-                        <img src="images/hebergements/4_small/HotelchezAmina.jpg" alt="photo de l'hôtel chez amina">
-                        <figcaption class="title">Hôtel chez Amina</figcaption>
-                        <figcaption class="price">Nuit à partir de 96€</figcaption>
-                        <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></figcaption>
+                        <a href=""><img src="images/hebergements/4_small/HotelchezAmina.jpg" alt="photo de l'hôtel chez amina"></a>
+                        <a href="">
+                            <figcaption class="title">Hôtel chez Amina</figcaption>
+                            <figcaption class="price">Nuit à partir de 96<strong>€</strong></figcaption>
+                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></figcaption>
+                        </a>
                     </figure>
 
                 </div>
@@ -127,30 +141,36 @@
                 <div class="container2">
 
                     <figure class="card2">
-                        <img src="images/hebergements/4_small/HotelLesoleildumatin.jpg" alt="photo de l'hôtel le soleil du matin">
+                        <a href=""><img src="images/hebergements/4_small/HotelLesoleildumatin.jpg" alt="photo de l'hôtel le soleil du matin"></a>
                         <div>
-                            <figcaption class="title">Hôtel Le soleil du matin</figcaption>
-                            <figcaption class="price">Nuit à partir de 128€</figcaption>
-                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></figcaption>
+                            <a href="">
+                                <figcaption class="title">Hôtel Le soleil du matin</figcaption>
+                                <figcaption class="price">Nuit à partir de 128<strong>€</strong></figcaption>
+                                <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></figcaption>
+                            </a>
                         </div>
                     </figure>
 
                     <figure class="card2">
-                        <img src="images/hebergements/4_small/Chambrehotes.jpg" alt="photo de Au coeur de l'eau Chambres d'hôtes">
+                        <a href=""><img src="images/hebergements/4_small/Chambrehotes.jpg" alt="photo de Au coeur de l'eau Chambres d'hôtes"></a>
                         <div>
-                            <figcaption class="title">Au coeur de l'eau Chambres d'hôtes</figcaption>
-                            <figcaption class="price">Nuit à partir de 71€</figcaption>
-                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                            <a href="">
+                                <figcaption class="title">Au coeur de l'eau Chambres d'hôtes</figcaption>
+                                <figcaption class="price">Nuit à partir de 71<strong>€</strong></figcaption>
+                                <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                            </a>
                         </div>
                     </figure>
 
 
                     <figure class="card2">
-                        <img src="images/hebergements/4_small/Hoteltoutbleuetblanc.jpg" alt="photo de l'hôtel tout bleu et blanc">
+                        <a href=""><img src="images/hebergements/4_small/Hoteltoutbleuetblanc.jpg" alt="photo de l'hôtel tout bleu et blanc"></a>
                         <div>
-                            <figcaption class="title">Hôtel Tout bleu et Blanc</figcaption>
-                            <figcaption class="price">Nuit à partir de 68€</figcaption>
-                            <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                            <a href="">
+                                <figcaption class="title">Hôtel Tout bleu et Blanc</figcaption>
+                                <figcaption class="price">Nuit à partir de 68<strong>€</strong></figcaption>
+                                <figcaption class="notation"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star vide"></i></figcaption>
+                            </a>
                         </div>
                     </figure>
 
@@ -168,41 +188,41 @@
                     
                     <figure class="card3">
                         <div class="overflow1">
-                            <img src="images//activites/3_medium/Vieux Port.jpg" alt="photo du vieux port">
+                            <a href=""><img src="images//activites/3_medium/Vieux Port.jpg" alt="photo du vieux port"></a> 
                         </div>
-                        <figcaption>Vieux Port</figcaption>
+                        <a href=""><figcaption class="title">Vieux Port</figcaption></a>
                     </figure>
 
                     <div class="col">
                         <figure class="card4">
                             <div class="overflow2">
-                                <img src="images/activites/4_small/portdepornegues.jpg" alt="photo du fort de Pormègues">
+                                <a href=""><img src="images/activites/4_small/portdepornegues.jpg" alt="photo du fort de Pormègues"></a>
                             </div>
-                            <figcaption>Fort de Pormègues</figcaption>
+                            <a href=""><figcaption class="title">Fort de Pormègues</figcaption></a>
                         </figure>
 
                         <figure class="card5">
-                            <img src="images/activites/4_small/IlesduFrioul.jpg" alt="photo des Iles du Frioul">
-                            <figcaption>Îles du Frioul</figcaption>
+                            <a href=""><img src="images/activites/4_small/IlesduFrioul.jpg" alt="photo des Iles du Frioul"></a>
+                            <a href=""><figcaption class="title">Îles du Frioul</figcaption></a>
                         </figure>
                     </div>
 
                     <figure class="card3">
                         <div class="overflow1">
-                            <img src="images/activites/3_medium/Parc Nationnal des Calanques.jpg" alt="photo du Parc nationnal des Calanques">
+                            <a href=""><img src="images/activites/3_medium/Parc Nationnal des Calanques.jpg" alt="photo du Parc nationnal des Calanques"></a>
                         </div>
-                        <figcaption>Parc Nationnal des Calanques</figcaption>
+                        <a href=""><figcaption class="title">Parc Nationnal des Calanques</figcaption></a>
                     </figure>
 
                     <div class="col">
                         <figure class="card6">
-                            <img src="images/activites/4_small/notredamedelagarde.jpg" alt="photo de Notre-dame-de-la-garde">
-                            <figcaption>Notre-Dame-de-la-Garde</figcaption>
+                            <a href=""><img src="images/activites/4_small/notredamedelagarde.jpg" alt="photo de Notre-dame-de-la-garde"></a>
+                            <a href=""><figcaption class="title">Notre-Dame-de-la-Garde</figcaption></a>
                         </figure>
 
                         <figure class="card7">
-                            <img src="images/activites/4_small/portlongchamp.jpg" alt="photo du parc Longchamp">
-                            <figcaption>Parc Longchamp</figcaption>
+                            <a href=""><img src="images/activites/4_small/portlongchamp.jpg" alt="photo du parc Longchamp"></a>
+                            <a href=""><figcaption class="title">Parc Longchamp</figcaption></a>
                         </figure>
                     </div>
                    

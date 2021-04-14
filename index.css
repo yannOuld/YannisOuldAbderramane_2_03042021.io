@@ -18,13 +18,17 @@ body {
     margin: auto;
     font-size: 15px;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 /* --Header-- */
     /* --Banniere-- */
     .banniere1 {
         display: flex;
         flex-direction: row;
         width:100%;
-        margin: 4% 0;
+        margin: 4% 0 2%;
     }
     .logo{
         width: 100px;
@@ -34,14 +38,12 @@ body {
         width: 50%;
         text-align: right;
     }
-    .menu a{
-        padding: 3%  8% 0 8%;
-        text-decoration: none;
-    }
     .A-page {
+        padding: 3%  8% 0 8%;
         color: black;
     }
     .A-inscription {
+        padding: 3%  4% 0 8%;
         font-weight: bold;
         color: #0065FC
     }
@@ -74,12 +76,12 @@ body {
             border-radius: 15px 0px 0px 15px;
         }
     /* --Filtres-- */
-        .filtres label, .filtres button{
+        label, .btn{
             font-size: 16px; 
             font-weight: bold;
             margin-right: 50px;
         }
-        .filtres button{
+        .btn{
             font-family: Raleway, sans-serif;
             padding: 0 20px 0 60px;
             height: 40px;
@@ -87,7 +89,7 @@ body {
             border-radius: 20px;
             background-color: white;
         }
-        .btn :hover {
+        .btn:hover {
             background-color: #0065FC;
             color: white;
         }
@@ -107,6 +109,12 @@ body {
             color : #0065FC;
             border: 2px solid #F2F2F2;
             border-radius: 20px;
+        }
+        .information {
+            display: flex;
+        }
+        .information p {
+          padding: 1.5% 0 0 0 
         }
 /* --Section-- */
     section {
@@ -139,7 +147,7 @@ body {
     }
     figure{
         background-color: white;
-        border-radius: 15px;
+        border-radius: 20px;
         box-shadow: 3px 1px 10px #aaa;
     }
     .notation {
@@ -178,7 +186,7 @@ body {
 
         /* --Aside--*/
         .container2 {
-            height: 85%;
+            height: 80%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -238,11 +246,8 @@ body {
     .card5 img, .card6 img, .card7 img {
         object-position: top;
     }
-    .card3 {
+    .card3, .card3 img  {
         height: 450px;
-    }
-    .card3 img {
-        height: 450px
     }
     .card4 {
         height: 240px;
@@ -270,21 +275,128 @@ body {
     }
     .activites figcaption {
         margin: 5%;
-        font-weight: bold;
     }
 /* --Footer-- */
+    footer{
+        width: 100%;
+        background-color: #F2F2F2;
+        display: flex;
+    }
     footer h3 {
         margin: 10% 40px 0 ;
     }
     .footer {
-        width: 32%;
+        width: 33%;
         height: 220px;
     }
     .footer  li{
         list-style-type: none;
         padding: 3% 0 0 0;
     }
-    .footer  a {
-        text-decoration: none;
-        color: black;
-    }
+    
+/* --- RESPONSIVE ---*/
+@media screen and (max-width: 1024px){
+/* --General-- */
+body, section, footer, .container1, .container2, .container3, .box1, .box2, .box3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.banniere1, .searchbutton1 {
+    display: none;
+}
+.A-page:active {
+    color: #0065FC;
+    border-bottom: 5px solid #0065FC;
+}
+.btn:active {
+    background-color: #0065FC;
+    color: white;
+}
+h2 {
+    font-size: 22px;
+    margin: 5% 5% 0
+}
+.fa-chart-line {
+    padding: 0 0 0 30%
+}
+/* --Header-- */
+    /* --Banniere-- */
+        .recherche, .sign {
+            margin: 0 5%
+        }
+        .sign, .menu2{
+            display: flex;
+            width: 100%;
+            display: flex;
+        }
+        .A-inscription{
+            width: 50%;
+            padding: 8% 0;
+            margin:  0 45%;
+        } 
+        .A-page {
+            border-bottom: 5px solid lightgrey;
+            text-align: center;
+            width: 50%;
+            padding: 0 0 5%;
+        }
+        .menu2{
+         text-align: center;
+        }
+    /* --Recherche-- */
+        /* --Search-- */
+            .searchbar{
+                width: 250px;
+                border: 1px solid #F2F2F2;
+            }
+            .searchbutton2 {
+                width: 14%;
+                border-radius: 15px;
+                font-size: 15px;
+                background-color: #0065FC;
+                color: white;
+                position: absolute;
+                margin: 0 0 0 70%;
+                padding: 14px;
+            }
+            .searchmap{
+                width: 14%;
+                border-radius: 15px 0px 0px 15px;
+            }
+        /* --Filtres-- */
+
+        /* --Informations-- */
+        .information{
+            display: flex;
+        }
+        .information p{
+            width: 90%;
+            padding: 7% 0;
+        }
+    /* --Section Hebergements-- */
+        figure {
+            width: 90%;
+            margin: auto;
+        }
+        .hebergements {
+            height: 2100px;
+        }
+        .box1 {
+            height: 80%;
+            order:1;
+            background-color: white;
+        }
+        .box2 {
+            height: 25%;
+            border-radius: 0;
+        }
+        .container1 {
+            height: 90%;
+        }
+        .container2 {
+            height: 85%
+        }
+    
+}
