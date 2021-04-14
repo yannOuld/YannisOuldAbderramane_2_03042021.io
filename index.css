@@ -11,6 +11,9 @@
     .banniere2{
         display: none;
     }
+    .label {
+        padding-top: 0.5%;
+    }
 }  
 body {
     font-family: 'Raleway', sans-serif;
@@ -82,9 +85,7 @@ a {
             margin-right: 50px;
             
         }
-        .label{
-            padding-top: 0.5%;
-        }
+        
         .btn{
             font-family: Raleway, sans-serif;
             padding: 0 20px 0 60px;
@@ -330,6 +331,9 @@ h2 {
     font-size: 22px;
     margin: 5% 5% 0;
 }
+.lien {
+    margin: 0 5%;
+}
 .fa-chart-line {
     padding: 0 0 0 25%;
 }
@@ -379,6 +383,9 @@ h2 {
                 border-radius: 15px 0px 0px 15px;
             }
         /* --Filtres-- */
+            .filtres {
+                display: block;
+            }
             .btn-box{
                 display: flex;
                 flex-wrap: wrap;
@@ -386,7 +393,6 @@ h2 {
                 height: 200px;
                 width: 100%;
             }
-        
             .btn {
                 margin-right: 20px;
                 padding-left: 50px;
@@ -400,33 +406,45 @@ h2 {
                 width: 90%;
                 padding: 7% 0;
             }
-    /* --Section Hebergements-- */
+    /* --Section dimensions-- */
         
         .hebergements {
-            height: 2251px;
+            height: 2000px;
+        }
+        .activites {
+            height: 1450px;
         }
         .box1 {
-            height: 76%;
+            height: 1600px;
             order:1;
             background-color: white;
         }
         .box2 {
-            height: 25%;
+            height: 600px;
             border-radius: 0;
         }
+        .box3{
+            height: 1432px;
+        }
         .container1 {
-            height: 86%;
+            height: 1369px;
         }
         .container2 {
-            height: 76%;
+            height: 440px;
         }
+        .container3 {
+            height: 1352px;
+        }
+        .col {
+            height: 450px;
+            justify-content: space-evenly;
+       }
        .activites figure, .card1 ,.card2 {
            width: 90%;
-           height: 220px;
            margin: auto;
        }
         .activites figure, .card1{
-            height: 220px;
+            height: 200px;
        }
        .card2 div {
            width: 60%;
@@ -434,24 +452,29 @@ h2 {
        .card1 img {
              width: 97.5%;
        }
-    /* --Section Activités-- */
+    /* --Section card-- */
     .activites img, .overflow1, .overflow2{
         width: 100%;
-        height: 120px;
+        height: 145px;
     }
-    .activites {
-        height: 1600px;
+    .card5 img, .card6 img, .card7 img {
+        object-position: 100% 18%;
     }
-    .box3{
-        height: 100%;
+    .card3 img, .card4 img {
+        height: 200px;
     }
-    .container3 {
-        height: 90%;
+    .activites figure, .card1 ,.card2 {
+        width: 90%;
+        margin: auto;
     }
-    
-     .col{
-         height: 480px;
-         justify-content: space-evenly;
+     .activites figure, .card1{
+        height: 200px;
+    }
+    .card2 div {
+        width: 60%;
+    }
+    .card1 img {
+          width: 97.5%;
     }
 /*--FOOTER---*/
     footer {
@@ -459,7 +482,7 @@ h2 {
     }
     .footer {
         flex-direction: row;
-        width: 100%
+        width: 100%;
     }
     
 }
