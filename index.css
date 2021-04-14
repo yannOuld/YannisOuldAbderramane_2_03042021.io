@@ -80,6 +80,10 @@ a {
             font-size: 16px; 
             font-weight: bold;
             margin-right: 50px;
+            
+        }
+        .label{
+            padding-top: 0.5%;
         }
         .btn{
             font-family: Raleway, sans-serif;
@@ -92,6 +96,9 @@ a {
         .btn:hover {
             background-color: #0065FC;
             color: white;
+        }
+        .filtres{
+            display: flex;
         }
         .filtres .fas {
             position: absolute;
@@ -160,6 +167,9 @@ a {
     .title {
         font-weight: bold;
     }
+    .card1 .price, .card2 .price{
+        line-height: 10px;
+    }
    /* --Main--*/
         .container1{
             height: 72%;
@@ -214,6 +224,7 @@ a {
             position: absolute;
             bottom: 10%;
           }
+        
 /* --Section -- */
     .box3 {
         width: 100%;
@@ -227,6 +238,7 @@ a {
     .col {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
     .overflow1 , .overflow2 {
         width: 290px;
@@ -316,15 +328,15 @@ body, section, footer, .container1, .container2, .container3, .box1, .box2, .box
 }
 h2 {
     font-size: 22px;
-    margin: 5% 5% 0
+    margin: 5% 5% 0;
 }
 .fa-chart-line {
-    padding: 0 0 0 30%
+    padding: 0 0 0 25%;
 }
 /* --Header-- */
     /* --Banniere-- */
         .recherche, .sign {
-            margin: 0 5%
+            margin: 0 5%;
         }
         .sign, .menu2{
             display: flex;
@@ -356,6 +368,7 @@ h2 {
                 border-radius: 15px;
                 font-size: 15px;
                 background-color: #0065FC;
+                border-color: #0065FC;
                 color: white;
                 position: absolute;
                 margin: 0 0 0 70%;
@@ -366,25 +379,34 @@ h2 {
                 border-radius: 15px 0px 0px 15px;
             }
         /* --Filtres-- */
-
-        /* --Informations-- */
-        .information{
-            display: flex;
-        }
-        .information p{
-            width: 90%;
-            padding: 7% 0;
-        }
+            .btn-box{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 5% 0 0;
+                height: 200px;
+                width: 100%;
+            }
+        
+            .btn {
+                margin-right: 20px;
+                padding-left: 50px;
+                font-size: 12px;
+            }
+         /* --Informations-- */
+            .information{
+                display: flex;
+            }
+            .information p{
+                width: 90%;
+                padding: 7% 0;
+            }
     /* --Section Hebergements-- */
-        figure {
-            width: 90%;
-            margin: auto;
-        }
+        
         .hebergements {
-            height: 2100px;
+            height: 2251px;
         }
         .box1 {
-            height: 80%;
+            height: 76%;
             order:1;
             background-color: white;
         }
@@ -393,10 +415,51 @@ h2 {
             border-radius: 0;
         }
         .container1 {
-            height: 90%;
+            height: 86%;
         }
         .container2 {
-            height: 85%
+            height: 76%;
         }
+       .activites figure, .card1 ,.card2 {
+           width: 90%;
+           height: 220px;
+           margin: auto;
+       }
+        .activites figure, .card1{
+            height: 220px;
+       }
+       .card2 div {
+           width: 60%;
+       }
+       .card1 img {
+             width: 97.5%;
+       }
+    /* --Section Activités-- */
+    .activites img, .overflow1, .overflow2{
+        width: 100%;
+        height: 120px;
+    }
+    .activites {
+        height: 1600px;
+    }
+    .box3{
+        height: 100%;
+    }
+    .container3 {
+        height: 90%;
+    }
+    
+     .col{
+         height: 480px;
+         justify-content: space-evenly;
+    }
+/*--FOOTER---*/
+    footer {
+        height: 500px;
+    }
+    .footer {
+        flex-direction: row;
+        width: 100%
+    }
     
 }
