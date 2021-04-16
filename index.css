@@ -498,6 +498,9 @@ h2 {
     .card1 img {
         width: 100%;
     }
+    .card2 figcaption {
+        margin: 3% 8%;
+    }
 /*--FOOTER---*/
     footer {
         height: 500px;
