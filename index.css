@@ -1,4 +1,10 @@
 /* --Generale-- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 @media screen  and (min-width:1025px) {
     .A-page:hover {
      border-top: 4px solid #0065FC;
@@ -13,6 +19,9 @@
     }
     .label {
         padding-top: 0.5%;
+    }
+    .hebergements h2 , .lien {
+        margin: 30px 0 20px 50px;
     }
 }  
 body {
@@ -129,10 +138,6 @@ a {
         display: flex;
         justify-content: space-between;
     }
-    h2 , .lien {
-        margin: 40px 0  10px 40px;
-        width: 90%;
-    }
     .lien {
         text-decoration: none;
         color: black;
@@ -150,6 +155,7 @@ a {
     .box1 {
         width:65%;
         flex-direction: column;
+        justify-content: flex-start;
     }
     .box2 {
         width:32%;
@@ -169,7 +175,7 @@ a {
     .title {
         font-weight: bold;
     }
-    .card1 .price, .card2 .price{
+    .price{
         line-height: 25px;
     }
     figcaption {
@@ -185,6 +191,7 @@ a {
         }
         .card1 {
             margin: 20px 0 ;
+            height: 190px;
         }
         .card1 img {
             width: 240px;
@@ -210,6 +217,7 @@ a {
         .card2 {
             display: flex;
             width: 80%;
+            height: 120px;
         }
         .card2 img{
             width: 115px;
@@ -234,11 +242,11 @@ a {
 /* --Section -- */
     .box3 {
         width: 100%;
+        margin: 5% 0;
     }
     .container3 {
         display: flex;
         width: 100%;
-        margin: 5% 0;
         justify-content: space-evenly;
     } 
     .col {
@@ -315,6 +323,7 @@ a {
 /* --- RESPONSIVE ---*/
 @media screen and (max-width: 1024px){
 /* --General-- */
+
 .flex-col {
     width: 100%;
     display: flex;
@@ -334,13 +343,12 @@ a {
 }
 h2 {
     font-size: 22px;
-    margin: 5% 5% 0;
 }
-.lien {
-    margin: 0 5%;
+.lien , h2{
+    margin:  5%;
 }
 .fa-chart-line {
-    padding: 0 0 0 25%;
+    padding: 0 0 0 30%;
 }
 /* --Header-- */
     /* --Banniere-- */
@@ -418,13 +426,13 @@ h2 {
     /* --Section dimensions-- */
         
         .hebergements {
-            height: 2150px;
+            height: 2000px;
         }
         .activites {
-            height: 1580px;
+            height: 1450px;
         }
         .box1 {
-            height: 1600px;
+            height: 1400px;
             order:1;
             background-color: white;
         }
@@ -436,7 +444,7 @@ h2 {
             height: 1432px;
         }
         .container1 {
-            height: 1369px;
+            height: 1300px;
         }
         .container2 {
             height: 440px;
@@ -483,7 +491,7 @@ h2 {
         width: 60%;
     }
     .card1 img {
-          width: 97.5%;
+          width: 100%;
     }
 /*--FOOTER---*/
     footer {
