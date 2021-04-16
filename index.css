@@ -188,10 +188,10 @@ a {
     }
     .card2 .price{
         padding-bottom: 15%  ;
-      }
-      .card1 .price{
+    }
+    .card1 .price{
        padding-bottom:  5%;
-      }
+    }
    /* --Main--*/
         .container1{
             height: 450px;
@@ -199,7 +199,7 @@ a {
             flex-wrap: wrap;
             justify-content: space-evenly;
             width: 850px;
-            margin: 0 4%;
+            margin: 2% 4%;
         }
         .card1 {
             margin: 0 ;
