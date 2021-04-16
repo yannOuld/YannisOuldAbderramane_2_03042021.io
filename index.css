@@ -37,8 +37,8 @@ a {
     text-decoration: none;
     color: black;
 }
-button {
-    outline : none;
+.btn, .filtres button {
+    outline: none;
 }
 /* --Header-- */
     /* --Banniere-- */
