@@ -154,7 +154,7 @@ a {
     .box1, .box2 {
         background-color: #F2F2F2;
         border-radius: 15px;
-        height: 650px;
+        height: 620px;
     }
     .box1 {
         width:910px;
@@ -199,7 +199,7 @@ a {
             flex-wrap: wrap;
             justify-content: space-evenly;
             width: 850px;
-            margin: 2% 4%;
+            margin: 2% 4% 0;
         }
         .card1 {
             margin: 0 ;
@@ -220,7 +220,7 @@ a {
 
         /* --Aside--*/
         .container2 {
-            height: 480px;
+            height: 500px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
