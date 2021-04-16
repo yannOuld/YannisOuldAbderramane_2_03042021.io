@@ -60,7 +60,7 @@ a {
     .A-inscription {
         padding: 3%  4% 0 8%;
         font-weight: bold;
-        color: #0065FC
+        color: #0065FC;
     }
     /*---Recherche---*/
         .search {
@@ -149,7 +149,7 @@ a {
         margin: 0 0 0 70px;
     }
     .fa-chart-line{
-        padding: 0 0 0 33%
+        padding: 0 0 0 30%;
     }
     .box1, .box2 {
         background-color: #F2F2F2;
@@ -216,7 +216,6 @@ a {
         }
         .card1 figcaption{
             margin: 2% 5%;
-            height: 10%
         }
 
         /* --Aside--*/
@@ -228,7 +227,7 @@ a {
         }
         .card2 {
             display: flex;
-            width: 80%;
+            width: 360px;
             height: 120px;
         }
         .card2 img{
@@ -241,7 +240,6 @@ a {
         }
         .card2 figcaption{
             margin: 3% 11%;
-            position: relative;
         }
         
         
@@ -285,7 +283,7 @@ a {
         height: 240px;
     }
     .card4 img {
-        height: 260px
+        height: 260px;
     }
     .card5{
         height: 170px;
@@ -385,7 +383,7 @@ h2 {
         }
     /* --Recherche-- */
         /* --Search-- */
-            .searchbar{
+            .searchbar {
                 width: 250px;
                 border: 1px solid #F2F2F2;
             }
@@ -410,7 +408,7 @@ h2 {
                 height: 200px;
                 margin: 0;
             }
-            .btn-box{
+            .btn-box {
                 display: flex;
                 flex-wrap: wrap;
                 margin: 5% 0 0;
@@ -423,10 +421,10 @@ h2 {
                 font-size: 12px;
             }
          /* --Informations-- */
-            .information{
+            .information {
                 display: flex;
             }
-            .information p{
+            .information p {
                 width: 90%;
                 padding: 7% 0;
             }
@@ -440,14 +438,14 @@ h2 {
         }
         .box1 {
             height: 1400px;
-            order:1;
+            order: 1;
             background-color: white;
         }
         .box2 {
             height: 550px;
             border-radius: 0;
         }
-        .box3{
+        .box3 {
             height: 1432px;
         }
         .container1 {
@@ -477,7 +475,7 @@ h2 {
              width: 97.5%;
         }
     /* --Section card-- */
-    .activites img, .overflow1, .overflow2{
+    .activites img, .overflow1, .overflow2 {
         width: 100%;
         height: 145px;
     }
@@ -491,14 +489,14 @@ h2 {
         width: 90%;
         margin: auto;
     }
-     .activites figure, .card1{
+     .activites figure, .card1 {
         height: 200px;
     }
     .card2 div {
         width: 60%;
     }
     .card1 img {
-          width: 100%;
+        width: 100%;
     }
 /*--FOOTER---*/
     footer {
