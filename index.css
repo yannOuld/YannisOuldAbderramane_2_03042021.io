@@ -105,6 +105,7 @@ a {
             border : 2px solid #F2F2F2;
             border-radius: 20px;
             background-color: white;
+            outline : none;
         }
         .btn:hover {
             background-color: #0065FC;
@@ -462,46 +463,39 @@ h2 {
             height: 450px;
             justify-content: space-evenly;
         }
-       .activites figure, .card1 ,.card2 {
-           width: 90%;
-           margin: auto;
-        }
-        .activites figure, .card1{
-            height: 200px;
-        }
-       .card2 div {
-           width: 60%;
-        }
-       .card1 img {
-             width: 97.5%;
-        }
     /* --Section card-- */
-    .activites img, .overflow1, .overflow2 {
+    .activites figure, .card1 ,.card2 {
+        width: 90%;
+        margin: auto;
+     }
+     .activites figure, .card1{
+         height: 200px;
+     }
+     .activites img, .overflow1, .overflow2 {
         width: 100%;
-        height: 140px;
+        height: 150px;
     }
     .card7 img {
         object-position: 100% 15%;
     }
     .card3 img, .card4 img {
-        height: 200px;
+        height: 220px;
     }
-    .activites figure, .card1 ,.card2 {
-        width: 90%;
-        margin: auto;
-    }
-     .activites figure, .card1 {
-        height: 200px;
-    }
+    .card2 div {
+        width: 60%;
+     }
     .card2 div {
         width: 60%;
     }
     .card1 img {
         width: 100%;
-        height: 110px;
+        height: 115px;
     }
     .card2 figcaption {
         margin: 3% 8%;
+    }
+    .card1 .price {
+        padding-bottom: 1%;
     }
 /*--FOOTER---*/
     footer {
