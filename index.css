@@ -5,7 +5,7 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-@media screen  and (min-width:1025px) {
+@media screen  and (min-width:430px) {
     .A-page:hover {
      border-top: 4px solid #0065FC;
      padding-top: 10%;
@@ -308,7 +308,7 @@ a {
         padding: 3% 0 0 0;
     }
 /* --- RESPONSIVE ---*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 430px){
 /* --General-- */
 .flex-col {
     width: 100%;
@@ -415,6 +415,7 @@ h2 {
         }
         .box1 {
             height: 1430px;
+            min-width: 0;
             order: 1;
             background-color: white;
         }
