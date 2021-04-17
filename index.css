@@ -131,7 +131,7 @@ a {
           padding: 1.5% 0 0 0 ;
         }
 /* --Section-- */
-    section , .hebergements{
+    .hebergements{
         justify-content: space-between;
     }
     .lien {
@@ -161,6 +161,9 @@ a {
         background-color: white;
         border-radius: 20px;
         box-shadow: 3px 1px 10px #aaa;
+    }
+    figure img {
+        object-fit: cover;
     }
     .notation {
         color: #0065FC;
@@ -200,9 +203,7 @@ a {
         .card1 img {
             width: 240px;
             height: 107px;
-            object-fit: cover;
-            border-top-right-radius: 15px;
-            border-top-left-radius: 15px;
+            border-radius: 15px 15px 0 0;
             border: 4px white solid ;
             border-bottom: none;
         }
@@ -224,7 +225,6 @@ a {
         .card2 img{
             width: 115px;
             height: 125px;
-            object-fit: cover;
             border-radius: 15px 0px 0px 15px;
             border: 4px white solid ;
             border-right: none;
@@ -260,7 +260,6 @@ a {
     .card-act img{
         width: 290px;
         border-radius: 15px 15px 0 0;
-        object-fit: cover;
     }
     .card5 img, .card6 img, .card7 img {
         object-position: top;
