@@ -150,6 +150,7 @@ a {
     }
     .box1 {
         width:910px;
+        min-width: 888px;
         flex-direction: column;
         justify-content: flex-start;
     }
