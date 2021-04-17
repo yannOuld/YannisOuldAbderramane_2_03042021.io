@@ -132,6 +132,7 @@ a {
 /* --Section-- */
     .hebergements{
         justify-content: space-between;
+        width: 1400px;
     }
     .lien {
         text-decoration: none;
@@ -308,103 +309,185 @@ a {
         padding: 3% 0 0 0;
     }
 /* --- RESPONSIVE ---*/
-@media screen and (max-width: 430px){
-/* --General-- */
-.flex-col {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-.banniere1, .searchbutton1 {
-    display: none;
-}
-.A-page:active {
-    color: #0065FC;
-    border-bottom: 5px solid #0065FC;
-}
-.btn:active {
-    background-color: #0065FC;
-    color: white;
-}
-h2 {
-    font-size: 22px;
-}
-.lien , h2{
-    margin:  5%;
-}
-.fa-chart-line {
-    position: absolute;
-    right: 5%;
-}
-/* --Header-- */
-    /* --Banniere-- */
-        .recherche {
-            margin: 0 4%;
+/* --Tablette-- */
+@media screen and (max-width: 1160px) {
+    /* -- General-- */
+        .flex-col {
+            flex-direction: column;
+            margin: auto;
         }
-        .sign, .menu2 {
+        .fa-chart-line{
+            padding: 0 0 0 15%;
+        }
+        .A-page:active {
+            border-top: 4px solid #0065FC;
+            padding-top: 6%;
+            color: #0065FC;
+           }
+    /* -- Header-- */
+        header {
+            margin: 5%;
+        }
+        .menu {
             width: 100%;
+            margin: 0;
         }
-        .A-inscription{
+        .filtres {
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .btn-box {
+            width: 100%;
+            height: 150px;
+            flex-wrap: wrap;
+        }
+        .container1, .container3, .box1 , .box3 {
+            width: 100%;
+            height: 100%;
+        }
+        .container1, .container3 {
+            flex-flow: row wrap;
+        }
+    /* -- Hebergements-- */
+    .hebergements {
+        width: 100% ;
+    }
+        .box1 {
+            background-color: white;
+            min-width:0;
+        }
+        .card1 {
+            width: 240px;
+            margin: 3%;
+        }
+        .box2 {
+            width: 560px;
+            height: 600px;
+            margin-top: 4%;
+        }
+        .container2 {
+            width: 70%;
+            margin: auto;
+        }
+        .card2 {
+            margin: 0 2%;
+        }
+    /* -- Activités -- */
+        .box3 {
+            margin: 3% 0 0 0;
+        }
+        .box2 h2, .box3 h2 {
+            padding-left: 10%;
+        }
 
-            padding: 8% 0 0 0;
-            margin:  0  0 0 180px;
-        } 
-        .A-page {
-            border-bottom: 5px solid lightgrey;
-            text-align: center;
-            width: 50%;
-            padding: 0 0 5%;
-        }
-        .menu2{
-         text-align: center;
-        }
-        .logo {
-            margin: 0 20%;
-        }
-    /* --Recherche-- */
-        /* --Search-- */
-            .searchbar {
-                width: 250px;
-                border: 1px solid #F2F2F2;
+}
+/* -- Smartphone-- */
+@media screen and (max-width: 420px){
+    /* --General-- */
+    .flex-col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .banniere1, .searchbutton1 {
+        display: none;
+    }
+    .A-page:active {
+        color: #0065FC;
+        border-bottom: 5px solid #0065FC;
+        border-top: none;
+        padding-top: 0;
+        ;
+    }
+    .btn:active {
+        background-color: #0065FC;
+        color: white;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .box2 h2, .box3 h2 {
+        padding-left: 0;
+    }
+    .lien , h2{
+        margin:  5%;
+    }
+    .fa-chart-line {
+        position: absolute;
+        right: 5%;
+    }
+    /* --Header-- */
+        /* --Banniere-- */
+            header {
+                margin: auto;
             }
-            .searchbutton2 {
-                width: 14%;
-                border-radius: 15px;
-                font-size: 15px;
-                background-color: #0065FC;
-                border-color: #0065FC;
-                color: white;
-                position: absolute;
-                margin: 0 0 0 70%;
-                padding: 14px;
+            .recherche {
+                margin: 0 4%;
             }
-            .searchmap{
-                width: 14%;
-                border-radius: 15px 0px 0px 15px;
-            }
-        /* --Filtres-- */
-            .filtres {
-                display: block;
-                height: 200px;
-                margin: 0;
-            }
-            .btn-box {
-                flex-wrap: wrap;
-                margin: 5% 0 0;
-                height: 200px;
+            .sign, .menu2 {
                 width: 100%;
             }
-            .btn {
-                margin-right: 20px;
-                padding-left: 50px;
-                font-size: 12px;
+            .A-inscription{
+
+                padding: 8% 0 0 0;
+                margin:  0  0 0 180px;
+            } 
+            .A-page {
+                border-bottom: 5px solid lightgrey;
+                text-align: center;
+                width: 50%;
+                padding: 0 0 5%;
             }
-         /* --Informations-- */
-            .information p {
-                width: 90%;
-                padding: 7% 0;
+            .menu2{
+            text-align: center;
             }
+            .logo {
+                margin: 0 20%;
+            }
+        /* --Recherche-- */
+            /* --Search-- */
+                .searchbar {
+                    width: 250px;
+                    border: 1px solid #F2F2F2;
+                }
+                .searchbutton2 {
+                    width: 14%;
+                    border-radius: 15px;
+                    font-size: 15px;
+                    background-color: #0065FC;
+                    border-color: #0065FC;
+                    color: white;
+                    position: absolute;
+                    margin: 0 0 0 70%;
+                    padding: 14px;
+                }
+                .searchmap{
+                    width: 14%;
+                    border-radius: 15px 0px 0px 15px;
+                }
+            /* --Filtres-- */
+                .filtres {
+                    display: block;
+                    height: 200px;
+                    margin: 0;
+                }
+                .btn-box {
+                    flex-wrap: wrap;
+                    margin: 5% 0 0;
+                    height: 200px;
+                    width: 100%;
+                }
+                .btn {
+                    margin-right: 20px;
+                    padding-left: 50px;
+                    font-size: 12px;
+                }
+            /* --Informations-- */
+                .information p {
+                    width: 90%;
+                    padding: 7% 0;
+                }
     /* --Section dimensions-- */
         
         .hebergements {
@@ -473,13 +556,13 @@ h2 {
     .card1 .price {
         padding-bottom: 1%;
     }
-/*--FOOTER---*/
-    footer {
-        height: 500px;
-    }
-    .footer {
-        flex-direction: row;
-        width: 100%;
-    }
+    /*--FOOTER---*/
+        footer {
+            height: 500px;
+        }
+        .footer {
+            flex-direction: row;
+            width: 100%;
+        }
     
 }
