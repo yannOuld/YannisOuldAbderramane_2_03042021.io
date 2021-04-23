@@ -101,8 +101,8 @@
         .btn{
             font-family: Raleway, sans-serif;
             padding: 0 20px 0 60px;
-            height: 40px;
-            border : 2px solid #F2F2F2;
+            height: 45px;
+            border : 3px solid #F2F2F2;
             border-radius: 20px;
             background-color: white;
         }
@@ -114,7 +114,7 @@
             position: absolute;
             font-size: 14px;
             border-radius: 100%;
-            padding: 12px ;
+            padding: 15px ;
             background-color: #DEEBFF;
             color: #0065FC;
         }
@@ -213,7 +213,7 @@
         }
         /* --Aside--*/
         .container2 {
-            height: 500px;
+            height: 480px;
             flex-direction: column;
             justify-content: space-between;
         }
@@ -312,7 +312,7 @@
         padding: 3% 0 0 0;
     }
 /* --- RESPONSIVE ---*/
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1330px) {
     .hebergements {
         justify-content: space-evenly;
     }
@@ -336,7 +336,7 @@
            }
     /* -- Header-- */
         header {
-            margin: 5%;
+            margin: 0 5%;
         }
         .menu {
             width: 100%;
@@ -348,7 +348,7 @@
         }
         .btn-box {
             width: 100%;
-            height: 150px;
+            height: 160px;
             flex-wrap: wrap;
         }
         .container1, .container3, .box1 , .box3 {
@@ -404,6 +404,9 @@
     .menu a {
        padding: 2%
     }
+    .box2 {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 430px){
     /* --General-- */
@@ -456,10 +459,10 @@
                 margin:  0  0 0 47%;
             } 
             .A-page {
-                border-bottom: 5px solid lightgrey;
+                border-bottom: 3px solid lightgrey;
                 text-align: center;
                 width: 50%;
-                padding: 0 0 5%;
+                padding: 0 0 2%;
             }
             .menu2{
             text-align: center;
@@ -470,7 +473,7 @@
         /* --Recherche-- */
             /* --Search-- */
                 .searchbar {
-                    width: 250px;
+                    width: 65%;
                     border: 1px solid #F2F2F2;
                 }
                 .searchbutton2 {
@@ -586,4 +589,10 @@
             flex-direction: row;
             width: 100%;
         }
+}
+@media screen and (max-width: 340px){
+    .card2 .price {
+        line-height: 18px;
+        padding-bottom: 5%;
+    }
 }
