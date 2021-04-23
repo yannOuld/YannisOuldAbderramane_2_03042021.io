@@ -95,11 +95,12 @@
         label, .btn{
             font-size: 16px; 
             font-weight: bold;
-            margin-right: 50px;
+            margin-right: 40px;
             
         }
         .btn{
             font-family: Raleway, sans-serif;
+            font-size: 18px;
             padding: 0 20px 0 60px;
             height: 45px;
             border : 3px solid #F2F2F2;
