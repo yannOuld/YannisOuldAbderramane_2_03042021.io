@@ -113,9 +113,9 @@
         }
         .filtres .fas {
             position: absolute;
-            font-size: 15px;
+            font-size: 16px;
             border-radius: 100%;
-            padding: 15px ;
+            padding: 15px 13px;
             background-color: #DEEBFF;
             color: #0065FC;
         }
