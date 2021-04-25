@@ -112,7 +112,7 @@
         }
         .filtres .fas {
             position: absolute;
-            font-size: 14px;
+            font-size: 15px;
             border-radius: 100%;
             padding: 15px ;
             background-color: #DEEBFF;
@@ -184,10 +184,10 @@
         flex-direction: column;
     }
     .card2 .price{
-        padding-bottom: 15%  ;
+        padding: 3% 0 20% ;
     }
     .card1 .price{
-       padding-bottom:  5%;
+       padding:  4% 0;
     }
    /* --Main--*/
         .container1{
@@ -199,7 +199,7 @@
         }
         .card1 {
             margin: 0 ;
-            height: 190px;
+            height: 200px;
         }
         .card1 img {
             width: 240px;
@@ -220,17 +220,17 @@
         .card2 {
             display: flex;
             width: 360px;
-            height: 125px;
+            height: 145px;
         }
         .card2 img{
-            width: 115px;
-            height: 125px;
+            width: 140px;
+            height: 145px;
             border-radius: 15px 0px 0px 15px;
             border: 4px white solid ;
             border-right: none;
         }
         .card2 figcaption{
-            margin: 3% 11%;
+            margin: 3% 8%;
         }
 /* --Section -- */
     .box3 {
@@ -249,7 +249,7 @@
         justify-content: space-between;
     }
     .overflow1 , .overflow2 {
-        width: 290px;
+        width: 300px;
         overflow: hidden;
     }
     .overflow1{
@@ -259,7 +259,7 @@
         height: 190px;
     }
     .card-act img{
-        width: 290px;
+        width: 300px;
         border-radius: 15px 15px 0 0;
     }
     .card5 img, .card6 img, .card7 img {
@@ -528,7 +528,7 @@
             background-color: white;
         }
         .box2 {
-            height: 550px;
+            height: 555px;
             border-radius: 0;
         }
         .box3 {
@@ -538,7 +538,7 @@
             height: 1300px;
         }
         .container2 {
-            height: 440px;
+            height: 470px;
         }
         .container3 {
             height: 1352px;
