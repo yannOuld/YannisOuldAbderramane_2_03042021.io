@@ -177,9 +177,6 @@
     .title {
         font-weight: bold;
     }
-    .price{
-        line-height: 25px;
-    }
     figcaption {
         display: flex;
         flex-direction: column;
