@@ -176,16 +176,20 @@
     }
     .title {
         font-weight: bold;
+        margin: 0;
+        font-size: 15px;
     }
     figcaption {
         display: flex;
         flex-direction: column;
     }
-    .card2 .price{
-        padding: 3% 0 20% ;
+    .card2 .price {
+        padding: 0 0 10% ;
+
     }
     .card1 .price{
-       padding:  4% 0;
+       padding: 0;
+       margin: 5% 0;
     }
    /* --Main--*/
         .container1{
@@ -584,6 +588,7 @@
     }
     .card1 .price {
         padding-bottom: 1%;
+        margin: 2% 0;
     }
     /*--FOOTER---*/
         footer {
@@ -597,5 +602,8 @@
 @media screen and (max-width: 340px){
     .card2 img {
         width: 109px;
+    }
+    .card2 .price {
+        margin: 0;
     }
 }
